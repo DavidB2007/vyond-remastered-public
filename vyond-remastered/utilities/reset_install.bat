@@ -1,6 +1,6 @@
-title Wrapper: Offline Reset Script
+title Vyond: Remastered Reset Script
 :: Resets any changed files to make a fresh install, meant for devs making a new release
-:: Author: benson#0411
+:: Author: BlueMystery#2007
 :: License: MIT
 
 :: Initialize (stop command spam, clean screen, make variables work, set to UTF-8)
@@ -17,7 +17,7 @@ if not exist utilities\reset_install.bat ( goto error_location )
 if not exist wrapper ( goto error_location )
 goto noerror_location
 :error_location
-echo Doesn't seem like this script is in Wrapper: Offline's utilities folder.
+echo Doesn't seem like this script is in Vyond: Remastered's utilities folder.
 goto end
 :noerror_location
 
@@ -43,12 +43,12 @@ set ERROR_DELSAVE=n
 set ERROR_DELSILENTCMD=n
 
 :: Confirmation
-echo Are you sure you'd like to reset Wrapper: Offline?
+echo Are you sure you'd like to reset Vyond: Remastered?
 echo This will remove all saved videos and characters.
 echo You should only use this if you're a dev or one told you to do it.
 echo This decision is permanent, and can't be reversed.
 echo:
-echo Type y to reset Offline, and n to close this script.
+echo Type y to reset Vyond Remastered, and n to close this script.
 :resetconfirmretry
 set /p RESETCHOICE= Response:
 echo:
@@ -64,7 +64,7 @@ color cf
 echo Are you ABSOLUTELY sure you wish to do this?
 echo You are entirely responsible for losing your videos.
 echo:
-echo Type y to reset Offline, and n to close this script.
+echo Type y to reset Vyond Remastered, and n to close this script.
 :resetconfirmretry2
 set /p RESETCHOICE= Response:
 echo:
@@ -97,7 +97,7 @@ md utilities\checks
 del /q /s utilities\config.bat || set ERROR_DELCONFIG=y
 echo :: Wrapper: Offline Config>> utilities\config.bat
 echo :: This file is modified by settings.bat. It is not organized, but comments for each setting have been added.>> utilities\config.bat
-echo :: You should be using settings.bat, and not touching this. Offline relies on this file remaining consistent, and it's easy to mess that up.>> utilities\config.bat
+echo :: You should be using settings.bat, and not touching this. Vyond Remastered relies on this file remaining consistent, and it's easy to mess that up.>> utilities\config.bat
 echo:>> utilities\config.bat
 echo :: Opens this file in Notepad when run>> utilities\config.bat
 echo setlocal>> utilities\config.bat
