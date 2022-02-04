@@ -1,0 +1,52 @@
+/***
+this css has the create page stuff
+***/
+
+/**
+main
+**/
+main {
+	/* style */
+	padding: 20px 40px;
+	/* layout */
+	display: block;
+	text-align: -webkit-center;
+}
+
+/**
+theme
+**/
+.theme {
+	/* style */
+	background: linear-gradient(#292929, #141414);
+	box-shadow: inset 0 1px 0 0 #ffffff1a, 0 2px 0 0 #0000006e;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	max-width: 150px;
+	height: 205px;
+	border-radius: 6px;
+	transition: 0.05s linear;
+	padding: 3px;
+	/* layout */
+	display: inline-table;
+	position: relative;
+	margin: 5px;	
+}
+
+/* pick a creation */
+.pick_creation {
+	height: 240px;
+
+}
+/* items */
+.theme>a, .theme>a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.theme>a>img, .theme>div>img {
+	border-radius: 6px;
+}
+.theme>a>p, .theme>div>p {
+	margin: 0;
+}

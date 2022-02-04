@@ -1,0 +1,112 @@
+<html>
+    <head>
+    <link href="https://bluepeacocks.github.io/NewGA4SRCloudfrontServer/static/ad44370a650793d9/go/css/importer.css.gz.css" rel="stylesheet" type="text/css"> 
+    <link href="https://bluepeacocks.github.io/NewGA4SRCloudfrontServer/static/ad44370a650793d9/go/css/sailec.css" rel="stylesheet" type="text/css"> 
+    <script src="https://bluepeacocks.github.io/NewGA4SRCloudfrontServer/static/ad44370a650793d9/go/js/importer.js.gz.js"></script>
+</head>
+    <body>
+<script id="importer-file-tmpl" type="text/x-jquery-tmpl">
+<li class="ga-importer-file clearfix fade">
+    <div class="ga-importer-file-icon"><div class="ga-importer-file-progress-bar"><div class="upload-progress"></div></div></div>
+    <div class="ga-importer-file-body">
+        <div class="filename"></div>
+        <div class="actions clearfix">
+            <span class="menu"></span>
+            <span class="category"></span>
+            <a class="cancel" href="#" data-action="cancel-upload" title="Cancel">&times;</a>
+            <a class="clear" href="#" data-action="clear-file" title="Clear">&times;</a>
+            <a class="add-to-scene" href="#" data-action="add-to-scene">Add to scene</a>
+            <a class="add-to-frame" href="#" data-action="add-to-frame">Add to frame</a>
+            <span class="processing">
+                <span class="processing-video">Processing. Please wait...</span>
+                <span class="processing-font">Processing time: from a few seconds to 3 mins</span>
+            </span>
+            <span class="error"></span>
+        </div>
+    </div>
+</li>
+</script>
+<script id="importer-select-sound-tmpl" type="text/x-jquery-tmpl">
+<div class="dropdown">
+<a class="import-as-btn dropdown-toggle" data-toggle="dropdown" href="#">Import as <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+    <li><a tabindex="-1" href="#" data-subtype="bgmusic">Music</a></li>
+    <li><a tabindex="-1" href="#" data-subtype="soundeffect">Sound Effect</a></li>
+    <li><a tabindex="-1" href="#" data-subtype="voiceover">Voiceover</a></li>
+</ul>
+</div>
+</script>
+<script id="importer-select-prop-tmpl" type="text/x-jquery-tmpl">
+<div class="dropdown">
+<a class="import-as-btn dropdown-toggle" data-toggle="dropdown" href="#">Import as <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+    <li><a tabindex="-1" href="#" data-subtype="prop">Prop</a></li>
+    <li><a tabindex="-1" href="#" data-subtype="bg">Background</a></li>
+</ul>
+</div>
+</script>
+    <div class="ga-importer show">
+    <div class="ga-importer-header">
+        <form class="ga-importer-base-form" action="/ajax/saveUserProp" method="post">
+            <a class="ga-importer-collapse" href="#" title="Collapse" onclick="hideImporter(); return false;">×</a>
+
+            <div class="fileinputs">
+                <div class="importer-button file-trigger">SELECT FILES</div>
+                <input class="ga-importer-file-input" type="file" name="file" multiple="">
+            </div>
+
+            <span class="hints">
+                <i class="glyph-pro glyph-circle-question_mark"></i>
+                <div class="tooltip in" style="display:none;">
+                    <div class="tooltip-arrow"></div>
+                    <div class="tooltip-inner">
+                        <ul>
+                            <li>Maximum file size: 15MB</li>
+                            <li>Images: JPG, PNG<br>To cover the whole stage, 550 x 334 is reccomended (BGs only)</li>
+                            <li>Audio: MP3, WAV, M4A</li>
+                        </ul>
+                    </div>
+                </div>
+            </span>
+
+            <input type="hidden" name="subtype" value="">
+        </form>
+    </div>
+    <div class="ga-importer-content" style="height: 1536px;">
+        <div class="ga-importer-start">
+            <div class="ga-importer-start-draghere">Drag files here</div>
+
+            <div class="ga-importer-instruction general">
+                <ul>
+                    <li><strong>Maximum file size:</strong> 15MB</li>
+                    <li><strong>Images:</strong> JPG, PNG<br>To cover the whole stage, 550 x 334 is reccomended (BGs only)</li>
+                    <li><strong>Audio:</strong> MP3, WAV, M4A</li>
+                </ul>
+            </div>
+        </div>
+        <div class="ga-importer-results">
+            <div class="ga-importer-notice clearfix">
+                <div class="ga-importer-notice-count">
+                    Files added. <a class="open-your-library">View Library</a>
+                </div>
+            </div>
+            <ul class="ga-importer-files"></ul>
+        </div>
+        <div class="ga-importer-queue-message">
+            Assign a category to start importing
+            <span class="hints pull-right">
+                <i class="i-help"></i>
+                <div class="tooltip in" style="display:none;">
+                    <div class="tooltip-arrow"></div>
+                    <div class="tooltip-inner">
+                        <p>Imported files are categorized to simplify browsing.</p>
+                        <p>Use the "IMPORT AS" drop down to see the available categories based on the format of the file you import.</p>
+                    </div>
+                </div>
+            </span>
+        </div>
+        <ul class="ga-importer-queue"></ul>
+    </div>
+    <div class="ga-import-dnd-hint">
+        Release to start uploading    </div>
+</div></body></html>

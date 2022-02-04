@@ -1,0 +1,115 @@
+/***
+this css contains the swf page styling
+***/
+
+/**
+general
+**/
+html, body {
+	background: #eee;
+	margin: 0px;
+}
+
+/**
+character page stuff
+**/
+#char_creator,
+#char_browser {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* character creator */
+#char_creator {
+	width: 960px;
+	height: 600px;
+}
+/* character browser */
+#char_browser {
+	width: 100%;
+	height: 100%;
+}
+
+/**
+other pages
+**/
+#video_maker,
+#video_player {
+	width: 100%;
+	height: 100%;
+}
+
+/**
+form
+**/
+form {
+	display: none;
+}
+
+#previewPlayerContainer {
+	padding: 60px 0;
+	width: 960px;
+	margin: 0 auto;
+	z-index: 2;
+  }
+  .preview-player {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 60px #000;
+	box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	width: 640px;
+  }
+  .preview-player h2 {
+	color: #505e73;
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 1;
+	text-align: left;
+	padding: 15px 35px;
+	margin: 0;
+  }
+  .preview-player .buttons {
+	padding: 14px 0;
+  }
+  .preview-player a.close_btn {
+	color: #1fbba6;
+	line-height: 24px;
+	font-size: 24px;
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+  }
+  .preview-player a.close_btn:hover {
+	color: #029a85;
+	text-decoration: none;
+  }
+  .preview-button,
+  .tutorial-button {
+	background-color: #1fbba6;
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 36px;
+	text-transform: uppercase;
+	padding: 0 25px;
+	margin: 0 7px;
+  }
+  .preview-button:hover {
+	background-color: #029a85;
+  }
+  .preview-button.save,
+  .tutorial-button {
+	background-color: #f27935;
+  }
+  .preview-button.save:hover,
+  .tutorial-button:hover {
+	background-color: #dd6522;
+  }

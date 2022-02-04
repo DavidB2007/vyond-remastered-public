@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="action" name="Lil' Peepz" cc_theme_id="cc2">
+  <background id="ncc_medium.swf" name="Medium Horizon" enable="N" default="N" is_premium="N" aid="10712" money="0" sharing="0"/>
+  <background id="ncc_low.swf" name="Low Horizon" enable="N" default="N" is_premium="N" aid="10800" money="0" sharing="0"/>
+  <background id="ncc_floor.swf" name="Floor" enable="Y" default="N" is_premium="N" aid="10673" money="0" sharing="0"/>
+  <background id="ncc_gradient.swf" name="Gradient" enable="Y" default="N" is_premium="N" aid="10674" money="0" sharing="0"/>
+  <background id="ncc_high.swf" name="High Horizon" enable="Y" is_premium="N" aid="10675" money="0" sharing="0"/>
+  <background id="ncc_interior_left.swf" name="Interior left" enable="Y" default="N" is_premium="N" aid="10676" money="0" sharing="0"/>
+  <background id="ncc_interior_right.swf" name="Interior right" enable="Y" default="N" is_premium="N" aid="10677" money="0" sharing="0"/>
+  <background id="ncc_interior_left02.swf" name="Interior left" enable="Y" default="N" is_premium="N" aid="10680" money="0" sharing="0"/>
+  <background id="ncc_interior_right02.swf" name="Interior right" enable="Y" default="N" is_premium="N" aid="10681" money="0" sharing="0"/>
+  <background id="wall01.swf" name="Brick wall" enable="Y" default="N" is_premium="Y" aid="10775" money="0" sharing="0"/>
+  <background id="wall02.swf" name="Thick striped wallpaper" enable="Y" default="N" is_premium="N" aid="10776" money="0" sharing="0"/>
+  <background id="wall03.swf" name="Thin striped wallpaper" enable="Y" default="N" is_premium="N" aid="10777" money="0" sharing="0"/>
+  <background id="wall04.swf" name="Dotted wallpaper" enable="Y" default="N" is_premium="N" aid="10778" money="0" sharing="0"/>
+  <background id="wall05.swf" name="Squared wallpaper" enable="Y" default="N" is_premium="Y" aid="10779" money="0" sharing="0"/>
+  <background id="wall06.swf" name="Dotted floor" enable="Y" default="N" is_premium="N" aid="10780" money="0" sharing="0"/>
+  <background id="wall07.swf" name="Striped wallpaper" enable="Y" default="N" is_premium="Y" aid="10781" money="0" sharing="0"/>
+  <background id="wall08.swf" name="Flashing floor" enable="Y" default="N" is_premium="Y" aid="10782" money="0" sharing="0"/>
+  <background id="star_night.swf" name="starry night" enable="Y" default="N" is_premium="N" aid="10783" money="0" sharing="0"/>
+  <background id="ncc_wall09_left.swf" name="Teak flooring" enable="Y" default="N" is_premium="N" aid="10898" money="0" sharing="0"/>
+  <background id="ncc_wall09_right.swf" name="Teak flooring" enable="Y" default="N" is_premium="N" aid="10899" money="0" sharing="0"/>
+  <background id="wall_09.swf" name="Two-color wall" enable="Y" default="N" is_premium="N" aid="11059" money="0" sharing="0"/>
+  <background id="ncc_constore01.swf" name="Counter" enable="Y" default="N" is_premium="N" aid="11060" money="0" sharing="0"/>
+  <background id="ncc_constore02.swf" name="Convenient store" enable="Y" default="N" is_premium="N" aid="11061" money="0" sharing="0"/>
+  <background id="ncc_train.swf" name="Side view" enable="Y" default="N" is_premium="N" aid="11062" money="0" sharing="0"/>
+  <background id="nccha_cave.swf" name="Cave" enable="Y" default="N" is_premium="Y" aid="11239" money="0" sharing="0"/>
+  <background id="nccha_stone.swf" name="Stone" enable="Y" default="N" is_premium="Y" aid="11240" money="0" sharing="0"/>
+  <background id="wall10.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="11318" money="0" sharing="0"/>
+  <background id="ncc_floor01.swf" name="Floor" enable="Y" default="N" is_premium="N" aid="11451" money="0" sharing="0"/>
+  <background id="wall11.swf" name="Uniform" enable="Y" default="N" is_premium="N" aid="11452" money="0" sharing="0"/>
+  <background id="wall12.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="11453" money="0" sharing="0"/>
+  <background id="wall13.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="11454" money="0" sharing="0"/>
+  <background id="wall14.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="11455" money="0" sharing="0"/>
+  <background id="wall_grass.swf" name="Barn" enable="Y" default="N" is_premium="Y" aid="11573" money="0" sharing="0"/>
+  <background id="wall15.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="11667" money="0" sharing="0"/>
+  <background id="ncc_road.swf" name="Road" enable="Y" default="N" is_premium="N" aid="11668" money="0" sharing="0"/>
+  <background id="ncc_soil.swf" name="Soil" enable="Y" default="N" is_premium="N" aid="11669" money="0" sharing="0"/>
+  <background id="wall16.swf" name="Interior" enable="Y" default="N" is_premium="Y" aid="11765" money="0" sharing="0"/>
+  <background id="wall17.swf" name="Interior" enable="Y" default="N" is_premium="Y" aid="11766" money="0" sharing="0"/>
+  <background id="wall18.swf" name="Interior" enable="Y" default="N" is_premium="Y" aid="11767" money="0" sharing="0"/>
+  <background id="wall19.swf" name="Interior" enable="Y" default="N" is_premium="N" aid="11768" money="0" sharing="0"/>
+  <background id="wall20.swf" name="Airport daytime" enable="Y" default="N" is_premium="Y" aid="11769" money="0" sharing="0"/>
+  <background id="wall21.swf" name="Airport nighttime" enable="Y" default="N" is_premium="Y" aid="11770" money="0" sharing="0"/>
+  <background id="wall22.swf" name="Interior" enable="Y" default="N" is_premium="Y" aid="11771" money="0" sharing="0"/>
+  <background id="wall23.swf" name="Floor" enable="Y" default="N" is_premium="N" aid="11772" money="0" sharing="0"/>
+  <background id="wall24.swf" name="Floor" enable="Y" default="N" is_premium="N" aid="11773" money="0" sharing="0"/>
+  <background id="ncc_corridor.swf" name="Corridor" enable="Y" default="N" is_premium="Y" aid="11855" money="0" sharing="0"/>
+  <background id="ncc_civilwar.swf" name="US Civil War map" enable="Y" default="N" is_premium="N" aid="11994" money="0" sharing="0"/>
+  <background id="ncc_revolu_bg.swf" name="Independence hall" enable="Y" default="N" is_premium="N" aid="11995" money="0" sharing="0"/>
+  <background id="ncc_revolu_map.swf" name="US Revolutionary War map" enable="Y" default="N" is_premium="N" aid="11996" money="0" sharing="0"/>
+  <background id="ncc_usmap.swf" name="US map" enable="Y" default="N" is_premium="Y" aid="11997" money="0" sharing="0"/>
+  <background id="ncc_warland.swf" name="Battlefield" enable="Y" default="N" is_premium="Y" aid="11998" money="0" sharing="0"/>
+  <background id="wall25.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="11999" money="0" sharing="0"/>
+  <background id="wall26.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="12000" money="0" sharing="0"/>
+  <background id="ncc_lift_bg.swf" name="Lift inside" enable="Y" default="N" is_premium="N" aid="12001" money="0" sharing="0"/>
+  <background id="ncc_lobby.swf" name="Lobby" enable="Y" default="N" is_premium="N" aid="12002" money="0" sharing="0"/>
+  <background id="ncc_path.swf" name="Path" enable="Y" default="N" is_premium="N" aid="17345" money="0" sharing="0"/>
+  <background id="ncc_underground.swf" name="Underground" enable="Y" default="N" is_premium="N" aid="17346" money="0" sharing="0"/>
+  <background id="ncc_plain.swf" name="Plain" enable="Y" default="N" is_premium="N" aid="23110" money="0" sharing="0"/>
+  <background id="wall27.swf" name="Staircase" enable="Y" default="N" is_premium="N" aid="12160" money="0" sharing="0"/>
+  <background id="wall28.swf" name="Staircase" enable="Y" default="N" is_premium="N" aid="12161" money="0" sharing="0"/>
+  <background id="wall29.swf" name="Interior" enable="Y" default="N" is_premium="N" aid="12162" money="0" sharing="0"/>
+  <background id="wall30.swf" name="Linear gradient" enable="Y" default="N" is_premium="N" aid="12163" money="0" sharing="0"/>
+  <background id="wall31.swf" name="Radial gradient" enable="Y" default="N" is_premium="N" aid="12164" money="0" sharing="0"/>
+  <background id="ncc_hilltop_bg.swf" name="Grassland" enable="Y" default="N" is_premium="N" aid="12222" money="0" sharing="0"/>
+  <background id="wall33.swf" name="pattern" enable="Y" default="N" is_premium="N" aid="12324" money="0" sharing="0"/>
+  <background id="wall32.swf" name="effect" enable="Y" default="N" is_premium="N" aid="12325" money="0" sharing="0"/>
+  <background id="ncc_gate.swf" name="Metal doors" enable="Y" default="N" is_premium="N" aid="12326" money="0" sharing="0"/>
+  <background id="ncc_fx_01.swf" name="Moody" enable="Y" default="N" is_premium="Y" aid="12355" money="0" sharing="0"/>
+  <background id="ncc_fx_02.swf" name="Depressed" enable="Y" default="N" is_premium="Y" aid="12356" money="0" sharing="0"/>
+  <background id="ncc_fx_03.swf" name="Bad smell" enable="Y" default="N" is_premium="Y" aid="12357" money="0" sharing="0"/>
+  <background id="ncc_fx_04.swf" name="Fire" enable="Y" default="N" is_premium="Y" aid="12358" money="0" sharing="0"/>
+  <background id="ncc_fx_05.swf" name="In love" enable="Y" default="N" is_premium="Y" aid="12359" money="0" sharing="0"/>
+  <background id="ncc_weird.swf" name="Haunted" enable="Y" default="N" is_premium="Y" aid="12360" money="0" sharing="0"/>
+  <background id="ncc_shock.swf" name="Shock" enable="Y" default="N" is_premium="Y" aid="12361" money="0" sharing="0"/>
+  <background id="ncc_anger.swf" name="Explosion" enable="Y" default="N" is_premium="Y" aid="12362" money="0" sharing="0"/>
+  <background id="ncc_anger2.swf" name="Explosion" enable="Y" default="N" is_premium="Y" aid="12363" money="0" sharing="0"/>
+  <background id="ncc_fx_08.swf" name="Speed lines" enable="Y" default="N" is_premium="Y" aid="12386" money="0" sharing="0"/>
+  <background id="ncc_fx_09.swf" name="Speed lines" enable="Y" default="N" is_premium="Y" aid="12387" money="0" sharing="0"/>
+  <background id="ncc_fx_10.swf" name="Speed lines" enable="Y" default="N" is_premium="Y" aid="12388" money="0" sharing="0"/>
+  <background id="ncc_pirateship01_bg.swf" name="Ship's side" enable="Y" default="N" is_premium="N" aid="12432" money="0" sharing="0"/>
+  <background id="ncc_pirateship01_deck.swf" name="Ship's deck" enable="Y" default="N" is_premium="N" aid="12433" money="0" sharing="0"/>
+  <background id="16_9.swf" name="16-9" enable="Y" default="N" is_premium="N" aid="12437" money="0" sharing="0"/>
+  <compositebg id="cbg_living_rm01" name="Living room" enable="N" default="N" thumb="living_rm01.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10713">
+  <bg id="cbg_living_rm01_BG43" index="0">
+    <file>action.ncc_medium.swf</file>
+    <color r="colorA">13295579</color>
+    <color r="colorB">8618916</color>
+  </bg>
+  <prop id="cbg_living_rm01_PROP362" index="3">
+    <file>action.backdrop.swf</file>
+    <x>425</x>
+    <y>112</y>
+    <xscale>0.4</xscale>
+    <yscale>0.39</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+  </prop>
+  <prop id="cbg_living_rm01_PROP363" index="4">
+    <file>action.window_display.swf</file>
+    <x>370.6</x>
+    <y>69</y>
+    <xscale>1.19</xscale>
+    <yscale>1.19</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+  </prop>
+  <prop id="cbg_living_rm01_PROP364" index="5">
+    <file>action.window_display.swf</file>
+    <x>489.4</x>
+    <y>69</y>
+    <xscale>1.19</xscale>
+    <yscale>1.19</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+  </prop>
+  <prop id="cbg_living_rm01_PROP365" index="6">
+    <file>action.msp_door01.msp_door01_door01_front_close.swf</file>
+    <x>117</x>
+    <y>132</y>
+    <xscale>0.86</xscale>
+    <yscale>0.86</yscale>
+    <face>-1</face>
+    <rotation>0</rotation>
+    <color r="ccColorA">7292976</color>
+  </prop>
+  <prop id="cbg_living_rm01_PROP366" index="1">
+    <file>action.msp_pic01.msp_pic01_pic_front.swf</file>
+    <x>250</x>
+    <y>86</y>
+    <xscale>1</xscale>
+    <yscale>1</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+    <color r="ccColorA">16777215</color>
+  </prop>
+  <prop id="cbg_living_rm01_PROP367" index="7">
+    <file>action.carpet.swf</file>
+    <x>332</x>
+    <y>302</y>
+    <xscale>1.67</xscale>
+    <yscale>1.48</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+    <color r="ccColorA">12768730</color>
+    <color r="ccColorB">10053171</color>
+  </prop>
+  <prop id="cbg_living_rm01_PROP368" index="8">
+    <file>action.msp_sofa02.msp_sofa02_sofa02_front.swf</file>
+    <x>397</x>
+    <y>207.5</y>
+    <xscale>1</xscale>
+    <yscale>1</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+    <color r="ccColorA">10066278</color>
+  </prop>
+  <prop id="cbg_living_rm01_PROP369" index="9">
+    <file>action.lamp_floor.swf</file>
+    <x>568</x>
+    <y>146</y>
+    <xscale>1</xscale>
+    <yscale>1</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+    <color r="ccColorA">16777164</color>
+    <color r="ccColorB">6697728</color>
+  </prop>
+  <prop id="cbg_living_rm01_PROP370" index="10">
+    <file>action.msp_shelves03.msp_shelves03_bookshelves_front.swf</file>
+    <x>212</x>
+    <y>347</y>
+    <xscale>1</xscale>
+    <yscale>1</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+  </prop>
+  <prop id="cbg_living_rm01_PROP371" index="11">
+    <file>action.msp_old_tv.msp_old_tv_old_tv_back.swf</file>
+    <x>213.1</x>
+    <y>268</y>
+    <xscale>1</xscale>
+    <yscale>1</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+  </prop>
+</compositebg>
+  <compositebg id="cbg_street01" name="Street" enable="Y" default="Y" thumb="street01.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10801">
+  <bg id="cbg_street01_BG3" index="0">
+    <file>action.ncc_low.swf</file>
+    <color r="colorB">3290175</color>
+    <color r="colorA">9672351</color>
+  </bg>
+  <prop id="cbg_street01_PROP0" index="2">
+    <file>action.msp_vending_drink.msp_vending_drink_vending_drink.swf</file>
+    <x>80</x>
+    <y>184</y>
+    <xscale>1</xscale>
+    <yscale>1</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+    <color r="ccColorA">5995069</color>
+  </prop>
+  <prop id="cbg_street01_PROP3" index="3">
+    <file>action.msp_vending_drink.msp_vending_drink_vending_drink.swf</file>
+    <x>225</x>
+    <y>184</y>
+    <xscale>1</xscale>
+    <yscale>1</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+    <color r="ccColorA">9319733</color>
+  </prop>
+  <prop id="cbg_street01_PROP2" index="4">
+    <file>action.bench01.swf</file>
+    <x>432</x>
+    <y>247</y>
+    <xscale>0.85</xscale>
+    <yscale>0.85</yscale>
+    <face>1</face>
+    <rotation>0</rotation>
+    <color r="ccColorA">6710886</color>
+  </prop>
+  <prop id="cbg_street01_PROP8" index="5">
+    <file>action.street_lamp.swf</file>
+    <x>566</x>
+    <y>177</y>
+    <xscale>1.7</xscale>
+    <yscale>1.77</yscale>
+    <face>-1</face>
+    <rotation>0</rotation>
+  </prop>
+</compositebg>
+  <prop id="vending_drink.swf" name="Drinks vending machine" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10797" money="0" sharing="0"/>
+  <prop id="bench01.swf" name="Bench" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10798" money="0" sharing="0"/>
+  <prop id="street_lamp.swf" name="Street lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10799" money="0" sharing="0"/>
+  <prop id="backdrop.swf" name="City backdrop" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10690" money="0" sharing="0"/>
+  <prop id="window_display.swf" name="Window" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10691" money="0" sharing="0"/>
+  <prop id="msp_door01" name="Door" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_door01_door01_front_close.swf" enable="N" is_premium="N" aid="10692" money="0" sharing="0">
+    <state id="msp_door01_door01_front_close.swf" name="front closed" enable="N" default="Y"/>
+    <state id="msp_door01_door01_front_open.swf" name="front open" enable="N"/>
+  </prop>
+  <prop id="msp_pic01" name="Picture" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_pic01_pic_front.swf" enable="N" is_premium="N" aid="10695" money="0" sharing="0">
+    <state id="msp_pic01_pic_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_pic01_pic_side.swf" name="side" enable="Y"/>
+  </prop>
+  <prop id="msp_sofa02" name="sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sofa02_sofa02_front.swf" enable="N" is_premium="N" aid="10698" money="0" sharing="0">
+    <state id="msp_sofa02_sofa02_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_sofa02_sofa02_side.swf" name="side" enable="Y"/>
+  </prop>
+  <prop id="lamp_floor.swf" name="Lamp (floor)" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10701" money="0" sharing="0"/>
+  <prop id="msp_shelves03" name="Bookshelves" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_shelves03_bookshelves_front.swf" enable="N" is_premium="N" aid="10702" money="0" sharing="0">
+    <state id="msp_shelves03_bookshelves_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_shelves03_bookshelves_side.swf" name="side" enable="Y"/>
+  </prop>
+  <prop id="msp_old_tv" name="Old TV" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_old_tv_old_tv_front.swf" enable="N" is_premium="N" aid="10705" money="0" sharing="0">
+    <state id="msp_old_tv_old_tv_front.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_old_tv_old_tv_front_non.swf" name="front transparent" enable="Y"/>
+    <state id="msp_old_tv_old_tv_back.swf" name="back" enable="Y"/>
+    <state id="msp_old_tv_old_tv_side.swf" name="side" enable="Y"/>
+    <state id="msp_old_tv_old_tv_side_back.swf" name="side back" enable="Y"/>
+  </prop>
+  <prop id="carpet.swf" name="Carpet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10711" money="0" sharing="0"/>
+  <prop id="msp_vending_drink" name="Vending machine" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_vending_drink_vending_drink.swf" enable="N" is_premium="Y" aid="12172" money="0" sharing="0">
+    <state id="msp_vending_drink_vending_drink.swf" name="front" enable="Y" default="Y"/>
+    <state id="msp_vending_drink_ncc_vending_drink_side.swf" name="side" enable="Y"/>
+  </prop>
+</theme>
